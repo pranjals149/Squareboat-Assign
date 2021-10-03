@@ -1,0 +1,153 @@
+.allJobs__Upper {
+    background-color: #25324F;
+    height: 210px;
+}
+
+.allJobs__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #25324F;
+    border-bottom: 1px solid #E8E8E833;
+}
+
+.allJobs__button {
+    border: 1px solid #43AFFF;
+    background: #43AFFF33 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.allJobs__icon {
+    display: flex;
+    align-items: center;
+}
+
+.allJobs__jumbo {
+    display: flex;
+    margin-top: 50px;
+}
+
+.allJobs__jumboLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+}
+
+.allJobs__getStarted {
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    margin-top: 35px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.allJobs__image > img {
+    box-shadow: 0px 30px 36px #557DA526;
+    border-radius: 20px;
+    opacity: 1;
+    width: 622px;
+    height: 395px;
+}
+
+.allJobs__welcomePara {
+    font-size: 2em;
+}
+
+.allJobs__lower {
+    background-color: #EDF6FE;
+}
+
+.allJobs__columns {
+  float: left;
+  padding: 0 10px;
+}
+
+.allJobs__row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.allJobs__row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.allJobs__card {
+    padding: 16px;
+    text-align: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #557DA526;
+    border-radius: 5px;
+    width: 260px;
+    height: 162px;
+    padding-bottom: 30px;
+}
+
+.allJobs__card > h3 {
+    color: #9CD5FC;
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.allJobs__card > p {
+    color: #303F60;
+    font-size: 14px;
+}
+
+.allJobs__why {
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size: 27px;
+}
+
+.allJobs__why > p {
+    color: #303F60;
+}
+
+.allJobs__icons {
+    display: flex;
+    align-items: center;
+}
+
+.allJobs__icons img {
+    width: 15px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.allJobs__icons p {
+    color: #303F60;
+    font-size: 14px;
+}
+
+.allJobs__buttonContent {
+    background: #43AFFF33 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.allJobs__content {
+    color: #303F60;
+}
+
+.allJobs__location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

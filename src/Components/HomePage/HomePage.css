@@ -1,0 +1,130 @@
+.homePage__Upper {
+    background-color: #25324F;
+}
+
+.homePage__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #25324F;
+    border-bottom: 1px solid #E8E8E833;
+}
+
+.homePage__button {
+    border: 1px solid #43AFFF;
+    background: #43AFFF33 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.homePage__icon {
+    display: flex;
+    align-items: center;
+}
+
+.homePage__jumbo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.homePage__jumboLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage__getStarted {
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    margin-top: 35px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.homePage__image > img {
+    box-shadow: 0px 30px 36px #557DA526;
+    border-radius: 20px;
+    opacity: 1;
+    width: 622px;
+    height: 395px;
+}
+
+.homePage__welcomePara {
+    font-size: 4em;
+}
+
+.homePage__lower {
+    background-color: #EDF6FE;
+}
+
+.homePage__columns {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.homePage__row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.homePage__row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homePage__card {
+    padding: 16px;
+    text-align: left;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #557DA526;
+    border-radius: 5px;
+    width: 341px;
+    height: 192px;
+}
+
+.homePage__card > h3 {
+    color: #43AFFF;
+    margin-bottom: 25px;
+    font-size: 27px;
+}
+
+.homePage__card > p {
+    color: #303F60;
+    font-size: 20px;
+}
+
+.homePage__why {
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.homePage__why > p {
+    color: #303F60;
+}
+
+.homePage__post {
+    display: flex;
+    align-items: center;
+}
+
+.homePage__post > p {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-right: 30px;
+    cursor: pointer;
+}

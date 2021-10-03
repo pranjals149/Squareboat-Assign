@@ -1,0 +1,84 @@
+.postJob__upper {
+    background-color: #25324F;
+}
+
+.postJob__jumbo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #25324F;
+}
+
+.postJob__jumboLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.postJob__form > h3, .postJob__form p {
+    color: #303F60;
+}
+
+.postJob__form input {
+    background: #E8E8E833 0% 0% no-repeat padding-box;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    outline-color: #43AFFF;
+    width: 100%;
+    height: 46px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+textarea {
+    background: #E8E8E833 0% 0% no-repeat padding-box;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    outline-color: #43AFFF;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.postJob__lower {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.postJob__form {
+    width: 35%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 30px 36px #557DA526;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+}
+
+.postJob__jobTitle, .postJob__description, .postJob__location {
+    margin-top: 25px;
+}
+
+.postJob__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.postJob__submit > p {
+    border: 1px solid var(--unnamed-color-43afff);
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    width: 148px;
+    text-align: center;
+}

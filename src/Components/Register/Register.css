@@ -1,0 +1,126 @@
+.register__upper {
+    background-color: #25324F;
+}
+
+.register__jumbo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #25324F;
+}
+
+.register__jumboLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__form > h3, .register__form p {
+    color: #303F60;
+}
+
+.register__form input {
+    background: #E8E8E833 0% 0% no-repeat padding-box;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    outline-color: #43AFFF;
+    width: 100%;
+    height: 46px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.register__lower {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.register__form {
+    width: 35%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 30px 36px #557DA526;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+}
+
+.register__type {
+    display: flex;
+    margin-top: 10px;
+}
+
+.register__fullName, .register__emailAddress, .register__password, .register__skills, .register__types {
+    margin-top: 25px;
+}
+
+.register__password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__createPass {
+    width: 85%;
+    margin-right: 30px;
+}
+
+.register__confirmPass {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.register__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.register__submit > p {
+    border: 1px solid var(--unnamed-color-43afff);
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    width: 148px;
+    text-align: center;
+}
+
+.register__login {
+    text-align: center;
+}
+
+.register__recruiter {
+    width: 136px;
+    height: 46px;
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.register__candidate {
+    width: 136px;
+    height: 46px;
+    background: #E8E8E833 0% 0% no-repeat padding-box;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.register__error {
+    text-align: right;
+    margin-top: 6px;
+}

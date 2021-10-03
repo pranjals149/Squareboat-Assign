@@ -1,0 +1,20 @@
+[
+    {
+        "title": "UI UX Designer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…",
+        "location": "Bengaluru",
+        "button_content": "View applications"
+    },
+    {
+        "title": "Front-end Designer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…",
+        "location": "Gurgaon",
+        "button_content": "View applications"
+    },
+    {
+        "title": "Java Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…",
+        "location": "Bengaluru",
+        "button_content": "View applications"
+    }
+]
