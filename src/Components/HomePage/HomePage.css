@@ -128,3 +128,7 @@
     margin-right: 30px;
     cursor: pointer;
 }
+
+.homePage__post > p:hover {
+    text-decoration: underline;
+}
