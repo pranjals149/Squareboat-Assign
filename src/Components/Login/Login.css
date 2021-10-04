@@ -1,5 +1,6 @@
 .login__upper {
     background-color: #25324F;
+    height: 362px;
 }
 
 .login__jumbo {
@@ -43,6 +44,8 @@
     border-radius: 20px;
     height: 100%;
     padding: 20px;
+    position: relative;
+    top: -220px;
 }
 
 .login__fullName, .login__emailAddress, .login__password, .login__skills {

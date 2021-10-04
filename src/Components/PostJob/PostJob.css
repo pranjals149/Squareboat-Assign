@@ -55,6 +55,8 @@ textarea {
     border-radius: 20px;
     height: 100%;
     padding: 20px;
+    position: relative;
+    top: -280px;
 }
 
 .postJob__jobTitle, .postJob__description, .postJob__location {
@@ -81,4 +83,10 @@ textarea {
     color: #FFFFFF;
     width: 148px;
     text-align: center;
+}
+
+.postJob__error {
+    text-align: right;
+    color: red;
+    margin-top: 6px;
 }

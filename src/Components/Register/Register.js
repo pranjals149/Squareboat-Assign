@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import { useHistory } from "react-router-dom"
 
 import "./Register.css"
+import { auth, db } from '../../firebase'
 
 function Register({ signedIn, setSignedIn, showRight }) {
     const history = useHistory()
@@ -43,8 +44,22 @@ function Register({ signedIn, setSignedIn, showRight }) {
             return;
         }
 
-        setSignedIn(true);
-        history.push("/alljobs")
+        db.collection("recruiters").doc(email).collection("recruiters_details").add({
+            email: email,
+            name: name,
+            skills: skills
+        });
+
+        auth
+            .createUserWithEmailAndPassword(email, createPass)
+            .then((auth) => {
+                if (auth) {
+                    setSignedIn(true);
+                    localStorage.setItem("email", email);
+                    history.push("/alljobs")
+                }
+            })
+            .catch(error => alert(error.message))
     }
 
     return (
@@ -89,12 +104,12 @@ function Register({ signedIn, setSignedIn, showRight }) {
                     <div className="register__password">
                         <div className="register__createPass">
                             <p>Create Password*</p>
-                            <input type="text" placeholder="Enter your Password" value={createPass} onChange={(e) => setCreatePass(e.target.value)} />
+                            <input type="password" placeholder="Enter your Password" value={createPass} onChange={(e) => setCreatePass(e.target.value)} />
                         </div>
 
                         <div className="register__confirmPass">
                             <p>Confirm Password*</p>
-                            <input type="text" placeholder="Enter your Password" value={confirmPass} onChange={(e) => setConfirmPass(e.target.value)} />
+                            <input type="password" placeholder="Enter your Password" value={confirmPass} onChange={(e) => setConfirmPass(e.target.value)} />
                         </div>
 
                     </div>

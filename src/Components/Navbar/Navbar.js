@@ -1,11 +1,24 @@
 import { Avatar } from '@material-ui/core';
-import React from 'react'
+import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
+import { auth } from '../../firebase';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 import "../HomePage/HomePage.css"
 
 function Navbar({ signedIn, showRight }) {
     const history = useHistory();
+
+    const [show, setShow] = useState(false)
+
+    const logout = () => {
+        auth.signOut()
+            .then(() => {
+                history.push('/')
+            })
+            .catch((err) => alert(err.message))
+    }
+
     return (
         <div>
             {signedIn === false ? (
@@ -31,7 +44,16 @@ function Navbar({ signedIn, showRight }) {
                         <div className="homePage__post">
                             <p onClick={() => history.push("/postJob")}>Post a Job</p>
                             <Avatar src="/images/p.png" style={{ background: "#D9EFFF", color: "#303F60", cursor: "pointer" }} />
+
+                            <ArrowDropDownIcon style={{ color: "white", marginLeft: "10px", cursor: "pointer" }} onClick={() => setShow(!show)} />
                         </div>
+
+                        {show === true && (
+                            <div className="homePage__logout" onClick={logout}>
+                                Logout
+                            </div>
+                        )}
+
                     </div>
                 </div>
             )}

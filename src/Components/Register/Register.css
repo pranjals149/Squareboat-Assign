@@ -1,5 +1,6 @@
 .register__upper {
     background-color: #25324F;
+    height: 362px;
 }
 
 .register__jumbo {
@@ -43,6 +44,8 @@
     border-radius: 20px;
     height: 100%;
     padding: 20px;
+    position: relative;
+    top: -280px;
 }
 
 .register__type {

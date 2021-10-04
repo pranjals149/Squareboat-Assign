@@ -35,6 +35,7 @@
 .homePage__jumboLeft {
     display: flex;
     flex-direction: column;
+    justify-content: inherit;
 }
 
 .homePage__getStarted {
@@ -47,6 +48,11 @@
     margin-top: 35px;
     color: #ffffff;
     cursor: pointer;
+}
+
+.homePage__image {
+    position: relative;
+    top: 50px;
 }
 
 .homePage__image > img {
@@ -131,4 +137,14 @@
 
 .homePage__post > p:hover {
     text-decoration: underline;
+}
+
+.homePage__logout {
+    padding: 10px;
+    margin-top: 10px;
+    color: #303F60;
+    font-weight: 300;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    cursor: pointer;
 }

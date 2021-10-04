@@ -61,6 +61,7 @@
 
 .allJobs__welcomePara {
     font-size: 2em;
+    margin-top: -20px;
 }
 
 .allJobs__lower {
@@ -78,6 +79,14 @@
     justify-content: center;
     margin-bottom: 25px;
     margin-top: 40px;
+
+    position: absolute;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+    border-radius: 5px;
 }
 
 .allJobs__row:after {
@@ -150,4 +159,83 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.allJobs__empty {
+    display: flex;
+    justify-content: center;
+    color: #303F60;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.allJobs__empty > img {
+    width: 106px;
+    height: 106px;
+    margin-bottom: 15px;
+}
+
+.allJobs__post {
+    background: #43AFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #43AFFF;
+    border-radius: 5px;
+    width: 148px;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.allJobs__post > p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #303F6080;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.container > h4 {
+    color: #303F60;
+}
+
+.container > p {
+    color: #303F60;
+    margin-top: 10px;
+}
+
+.allJobs__skillsContainer {
+    margin-top: 20px;
+}
+
+.allJobs__skills {
+    color: #303F60;
+    font-weight: 600;
+}
+
+.allJobs__skill {
+    color: #303F60;
+    margin-top: 6px;
+}
+
+.pagination {
+    justify-content: space-evenly !important;
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+a {
+    color: #303F60;
 }
